@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+f = open('zimmer.pcd')
+js = '(function() {var t =  "";\n'
+lines = f.readlines()
+for line in lines:
+    line = line.replace('\n', '')
+    js+= 't+="{0}\\n";\n'.format(line)
+
+js+='window.PCDImporter(t);})();'
+
+print js

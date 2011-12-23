@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="javascripts/libs/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="javascripts/libs/Three.js"></script>
+        <script type="text/javascript" src="javascripts/viewer.js"></script>
+        <title>Point cloud viewer</title>
+        
+        <style type="text/css">
+            body {
+                position: relative;
+            }
+            #renderer {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="viewport">
+        </div>
+        <script type="text/javascript" id="point_cloud" src="resources/room.pcd.js"></script>
+    </body>
+</html>
