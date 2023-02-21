@@ -19,7 +19,7 @@ playground for me.
 
 # Usage
 
-You propably shouldn't, as of yet. But, if you must:
+You probably shouldn't, as of yet. But, if you must:
 
 ## Controls
 
